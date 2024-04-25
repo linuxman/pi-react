@@ -22,8 +22,10 @@ const Nilakantha = () => {
   return (
     <div>
       <h2>Método de Nilakantha</h2>
-      <p>Valor actual de Pi: {piValue}</p>
       <p>Iteraciones: {iterations}</p>
+      <p>
+        Valor actual de Pi: <strong>{piValue}</strong>
+      </p>
       <button onClick={calculatePi}>Calcular Pi</button>
       <button onClick={() => setIterations(iterations + 10)}>
         Añadir Iteraciones +10
