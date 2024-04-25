@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./water.css"; // css de water
+import Leibniz from "./components/Leibniz.js";
+import Nilakantha from "./components/Nilakantha.js";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Pi con React.</h1>
+      <hr></hr>
+      <Leibniz />
+      <hr></hr>
+      <Nilakantha />
     </div>
   );
-}
+};
 
 export default App;
