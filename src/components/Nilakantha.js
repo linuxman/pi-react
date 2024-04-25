@@ -21,7 +21,7 @@ const Nilakantha = () => {
 
   return (
     <div>
-      <h2>Calculadora de Pi con el método de Nilakantha</h2>
+      <h2>Método de Nilakantha</h2>
       <p>Valor actual de Pi: {piValue}</p>
       <p>Iteraciones: {iterations}</p>
       <button onClick={calculatePi}>Calcular Pi</button>

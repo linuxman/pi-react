@@ -14,7 +14,7 @@ const Leibniz = () => {
 
   return (
     <div>
-      <h2>Calculadora de Pi con el método de Leibniz</h2>
+      <h2>Método de Gregory-Leibniz</h2>
       <p>Iteraciones: {iterations}</p>
       <p>Valor actual de Pi: {piValue}</p>
       <button onClick={calculatePi}>Calcular Pi</button>
