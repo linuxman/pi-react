@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Calculando valores de π con React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un experimento personal que me sirvió para entender como crear una aplicación con React.
 
-## Available Scripts
+El propósito del proyecto es Calcular aproximaciones de &pi; usando series infinitas. Un tema del que ya he escrito anteriormente: [Cómo calcular Pi con Python: métodos y ejemplos](https://linuxmanr4.com/2023/09/07/como-calcular-pi-con-python-metodos-y-ejemplos/).
 
-In the project directory, you can run:
+## Videos
 
-### `npm start`
+Para comenzar vi unos cuantos videos en Youtube, busque que fueran lo más sencillo posible, porque lo primero era configurar Code y entender la mecánica de desarrollo. Me gustó [Aprende React en 15 Minutos](https://www.youtube.com/watch?v=wGxDfSWC4Ww) de Víctor Robles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Claro que con esto logro un entendimiento muy básico, pero es un buen comienzo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+El tutorial de React [Tutorial: Tres en línea](https://es.react.dev/learn/tutorial-tic-tac-toe) empieza bien y de golpe sube tremendamente el nivel y es fácil desanimarse.
 
-### `npm test`
+## Uso de IA
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Les recomiendo el uso de las IA para aprender un nuevo lenguaje. No solo son útiles para generar código, ayudan a entender porciones de código.
 
-### `npm run build`
+Usé dos, [Gemini](https://gemini.google.com/app) de Google y una reciente novedad [AI Chat](https://duckduckgo.com/?q=DuckDuckGo&ia=chat) de DuckDuckGo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Me pareció mucho más sencillo preguntarle mis dudas a estas inteligencias que hacer consultas en los buscadores.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Ventajas de React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para mi es muy pronto enumerar las ventajas de React. Hablando específicamente de este proyecto puedo decir que el uso de componentes es una maravilla.
 
-### `npm run eject`
+Cada algoritmo de cálculo se hizo individualmente ¡Divide y vencerás!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+El entorno de desarrollo es muy intuitivo, un error y te lo hace saber.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Y el poder jugar con el parámetro de iteraciones en un entorno de javascript lo hace muy rápido, prácticamente todo se ejecuta en el navegador.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Conclusiones
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este es un proyecto muy simple, si hay algo que hice mal por favor hágamelo saber.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Por el momento estoy revisando el tema de [React en freeCodeCamp](https://www.freecodecamp.org/news/tag/react/) hay temas muy interesantes.
