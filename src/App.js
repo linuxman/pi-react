@@ -7,6 +7,7 @@ import MasInfo from "./components/MasInfo.js";
 const App = () => {
   return (
     <div>
+      <img src="react-pi.png" alt="React Pi Logo"></img>
       <h1>Calculando valores de &pi; con React.</h1>
       <p>
         Aquí hay dos ejemplos de métodos de series infinitas para hacer una
