@@ -1,5 +1,6 @@
 import React from "react";
 import "./water.css"; // css de water
+import Montecarlo from "./components/Montecarlo.js";
 import Leibniz from "./components/Leibniz.js";
 import Nilakantha from "./components/Nilakantha.js";
 import MasInfo from "./components/MasInfo.js";
@@ -22,6 +23,8 @@ const App = () => {
       <Leibniz />
       <hr></hr>
       <Nilakantha />
+      <hr></hr>
+      <Montecarlo />
       <MasInfo />
     </div>
   );

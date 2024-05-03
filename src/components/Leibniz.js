@@ -17,7 +17,7 @@ const Leibniz = () => {
       <h2>Método de Gregory-Leibniz</h2>
       <p>Iteraciones: {iterations}</p>
       <p>
-        Valor actual de Pi: <strong>{piValue}</strong>
+        Valor actual de &pi;: <strong>{piValue}</strong>
       </p>
       <button onClick={calculatePi}>Calcular Pi</button>
       <button onClick={() => setIterations(iterations + 1000)}>
