@@ -4,6 +4,7 @@ import Montecarlo from "./components/Montecarlo.js";
 import Leibniz from "./components/Leibniz.js";
 import Nilakantha from "./components/Nilakantha.js";
 import MasInfo from "./components/MasInfo.js";
+import ReactVersion from "./components/VersionReact.js";
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
       <hr></hr>
       <Montecarlo />
       <MasInfo />
+      <hr></hr>
+      <ReactVersion />
     </div>
   );
 };
